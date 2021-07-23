@@ -28,6 +28,7 @@ factories:
      - smelt_cracked_stone_bricks
      - smelt_glass
      - smelt_glass_red
+     - smelt_xp_bottle
      - smelt_netherrack
      - smelt_red_netherbrick
      - smelt_bricks
@@ -1180,6 +1181,29 @@ recipes:
       glass:
         material: GLASS
         amount: 128
+  smelt_xp_bottle
+    name: Smelt Bottles for XP
+    production_time: 4s
+    input:
+      glass:
+        material: GLASS
+        amount: 192
+      clay:
+        material: CLAY_BALL
+        amount: 16
+      essence:
+        material: ENDER_EYE
+        amount: 1
+        name: Player Essence
+        lore:
+          - Activity reward used to fuel pearls
+    output:
+      glass_bottle:
+        material: GLASS_BOTTLE
+        amount: 192
+        name: Empty XP Bottle
+        lore:
+          - Used in the creation of XP
   smelt_netherrack:
     production_time: 4s
     name: Smelt Netherrack
@@ -4882,6 +4906,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 24
+        name: Empty XP Bottle
+        lore:
+          - Used in the creation of XP
       carrot:
         material: CARROT
         amount: 256
@@ -4903,6 +4930,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 14
+        name: Empty XP Bottle
+        lore:
+          - Used in the creation of XP
       carrot:
         material: CARROT
         amount: 256
@@ -4924,6 +4954,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 42
+        name: Empty XP Bottle
+        lore:
+          - Used in the creation of XP
       carrot:
         material: CARROT
         amount: 128
@@ -4954,6 +4987,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 42
+        name: Empty XP Bottle
+        lore:
+          - Used in the creation of XP
       nether_wart:
         material: NETHER_WART
         amount: 256
@@ -5009,6 +5045,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 128
+        name: Empty XP Bottle
+        lore:
+          - Used in the creation of XP
       carrot:
         material: CARROT
         amount: 96
@@ -5048,6 +5087,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 128
+        name: Empty XP Bottle
+        lore:
+          - Used in the creation of XP
       nether_wart:
         material: NETHER_WART
         amount: 64
@@ -5087,6 +5129,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 128
+        name: Empty XP Bottle
+        lore:
+          - Used in the creation of XP
       wheat:
         material: WHEAT
         amount: 128
@@ -5126,6 +5171,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 128
+        name: Empty XP Bottle
+        lore:
+          - Used in the creation of XP
       nether_wart:
         material: NETHER_WART
         amount: 64
@@ -5183,7 +5231,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 128
+        name: Empty XP Bottle
         lore:
+          - Used in the creation of XP
           - Compacted Item
       carrot:
         material: CARROT
@@ -5244,7 +5294,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 128
+        name: Empty XP Bottle
         lore:
+          - Used in the creation of XP
           - Compacted Item
       nether_wart:
         material: NETHER_WART
@@ -5305,7 +5357,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 128
+        name: Empty XP Bottle
         lore:
+          - Used in the creation of XP
           - Compacted Item
       wheat:
         material: WHEAT
@@ -5366,7 +5420,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 128
+        name: Empty XP Bottle
         lore:
+          - Used in the creation of XP
           - Compacted Item
       nether_wart:
         material: NETHER_WART
@@ -5427,7 +5483,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 128
+        name: Empty XP Bottle
         lore:
+          - Used in the creation of XP
           - Compacted Item
       carrot:
         material: CARROT
@@ -5488,7 +5546,9 @@ recipes:
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 128
+        name: Empty XP Bottle
         lore:
+          - Used in the creation of XP
           - Compacted Item
       wheat:
         material: WHEAT
